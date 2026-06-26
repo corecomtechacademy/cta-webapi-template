@@ -1,0 +1,6 @@
+@Cta.WebApi.Template_HostAddress = http://localhost:5010
+
+GET {{Cta.WebApi.Template_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

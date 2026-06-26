@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>Cta.WebApi.Template</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>CTA Web API Template</Title>
+    <Authors>Corecom Tech Academy</Authors>
+    <Description>ASP.NET Core Web API starter template with NHibernate, SQLite, repository pattern and seed data.</Description>
+    <PackageTags>dotnet-new;templates;webapi;nhibernate;sqlite</PackageTags>
+
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+  </PropertyGroup>
+
+<ItemGroup>
+  <Content Include="template/**"
+           Exclude="template/**/bin/**;template/**/obj/**;template/**/*.db;template/**/*.db-shm;template/**/*.db-wal"
+           Pack="true"
+           PackagePath="content/" />
+</ItemGroup>
+
+</Project>

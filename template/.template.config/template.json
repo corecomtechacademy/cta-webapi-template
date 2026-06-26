@@ -1,8 +1,8 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Corecom Technology Academy",
-  "classifications": ["Web", "API", "EF Core", "SQLite"],
-  "identity": "Corecom.Cta.WebApi",
+  "author": "Corecom Tech Academy",
+  "classifications": ["Web", "API", "NHibernate", "SQLite"],
+  "identity": "Cta.WebApi",
   "name": "CTA Web API with Database",
   "shortName": "cta-webapi",
   "sourceName": "Cta.WebApi.Template",

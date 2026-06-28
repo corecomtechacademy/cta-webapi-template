@@ -1,10 +1,12 @@
 This is a template dotnet project that includes various common patterns and techniques
 
-You can create a new dotnet template directly from github using:
+This is stored as a template in Azure DevOps. To use, do the following:
 
-` dotnet new install https://github.com/corecomtechacademy/cta-webapi-template `
+1. dotnet nuget add source "https://pkgs.dev.azure.com/corecomtechnologyacademy/AltiaTraining/_packaging/templates/nuget/v3/index.json" --name cta-templates
+
+2. dotnet new install Cta.WebApi.Template
 
 
-Then create a project from this template using something like:
+Then create a project from the template:
 
-` dotnet new cta-webapi-n <name> `
+3. dotnet new cta-webapi -n MyApi
